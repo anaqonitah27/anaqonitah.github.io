@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        position: relative;
+      width: 50%;
+      height: 50%;
+    }
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-light">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="artikel.html">Artikel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galery.html">Galery</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Bootstrap Artikel Kesehatan</h1><br>      
+        <p>Salah satu perilaku hidup bersih dan sehat (PHBS) yang selalu digaungkan sejak lama untuk menjaga kesehatan dan kebersihan dengan mencuci tangan. 
+            Perilaku ini seharusnya menjadi kebiasaan yang sangat baik, karena selain untuk menjaga kesehatan dan kebersihan, agama juga mengajarkannya.</p>    
+      </div>
+  </div>
+  
+<div class="container">
+    <h2>Pentingnya mencuci tangan</h2><br>
+    <p>Pandemi COVID-19 memberikan pengingat yang jelas bahwa mencuci tangan adalah salah satu cara paling sederhana untuk mencegah penyebaran virus bersama 
+        dengan langkah-langkah kesehatan masyarakat lainnya seperti menjaga jarak fisik, menghindari tempat ramai, mempraktikkan etiket batuk, dan memakai 
+        masker di mana pun dan memastikan hasil kesehatan yang lebih baik secara keseluruhan. Cuci Tangan Pakai Sabun adalah perilaku sederhana, 
+        namun memiliki dampak luar biasa dalam pencegahan penyakit menular.</p> <br> 
+        <p>Mencuci tangan pakai sabun terbukti mengurangi risiko penyakit diare dan pernapasan. Namun, kepatuhan mencuci tangan 
+            pada saat-saat kritis misal, sebelum makan dan sesudah buang air besar) di banyak bagian dunia jauh dari ideal.
+            Menggunakan sabun dan air mengalir adalah cara efektif untuk mencuci tangan. Sayangnya, orang seringkali 
+            menggunakan sabun yang terlalu sedikit saat mencuci tangan mereka. Jika menggunakan sabun cair, <br>gunakan sabun hingga seukuran uang koin. 
+            Lalu ratakan sabun tersebut ke seluruh tangan agar kotoran dan virus terangkat.</p>    
+  </div><br>
+
+  <div class="container">
+    <h3>Kenapa Kesehatan perlu dijaga ?</h3>
+    <a href="#" data-toggle="popover" title="Arti Penting Kesehatan " data-content="Jagalah Kesehatan karena Kesehatan merupakan hal yang sangat penting 
+    bagi semua manusia karena tanpa kesehatan yang baik, maka setiap manusia akan sulit dalam melaksanakan aktivitasnya sehari-hari. ">Arti Penting Kesehatan</a>
+  </div>
+  
+  <script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+  });
+  </script><br><br><br><br>
+
+
+<div class="container">
+    <h2>Galery Kesehatan</h2>
+    <p>Tetaplah mencuci tangan dimanapun Anda berada</p>            
+    <img src="cuci.jpg" class="rounded" alt="Cinque Terre" width="500" height="300">
+    <img src="cucitangan.jpg" class="img-thumbnail" alt="Cinque Terre"> 
+</div><br>
+
+</body>
+</html>
